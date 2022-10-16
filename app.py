@@ -30,5 +30,5 @@ def scrape():
    return redirect('/', code=302) # will navigate our page back to / where we can see the updated content
 
 # we need for Flask is to tell it to run
-   if __name__ == "__main__":
+if __name__ == "__main__":
    app.run()
